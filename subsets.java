@@ -32,7 +32,11 @@ public class subsets {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
       int [] num={1,2,3};
-      System.out.println(subsets(num));
+      int a=7;
+      int b=4;
+      int sum = a ^ b;
+      int plus = (a & b) << 1;
+      System.out.println(sum +" " + plus);
       
       
 	}
